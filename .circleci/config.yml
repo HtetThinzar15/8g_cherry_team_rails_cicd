@@ -48,7 +48,7 @@ jobs:
         environment:
           DOCKER_IMAGE: 8g_cherry_team_rails_cicd
           APP: 8g_cherry_team_rails_cicd
-          AWS_REGION: us-east-1
+          AWS_REGION: ap-northeast-1
     working_directory: ~/8g_cherry_team_rails_cicd
     steps:
       - checkout
